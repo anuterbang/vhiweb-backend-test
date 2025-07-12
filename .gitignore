@@ -1,0 +1,27 @@
+# Node modules (wajib)
+node_modules/
+
+# Env file (penting untuk keamanan)
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage hasil testing (kalau pakai Jest atau nyc)
+coverage/
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Build folder (kalau ada proses compile)
+dist/
+build/
